@@ -289,19 +289,21 @@ h2{
     
 
 }
-.third-section-svg svg{
-    background: #FFFFFF;
-    cursor: pointer;
-    margin-top: 20px;
-    fill: #AFB1B8;
-  
-}
 
-.third-section-svg svg:hover{
+.third-section-svg a{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    fill: #AFB1B8;
+
+}
+.third-section-svg a:hover{
     background-color: var(--icon-color);
-    border-radius: 100%;
-    width: 44px;
+    border-radius: 50%;
     fill: #FFFFFF;
+    
 }
 
 
@@ -345,6 +347,52 @@ ul{
     margin-top: 94px;
 
 }
+
+
+
+
+.regular-customers{
+    width: 1200px;
+    margin: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.regular-customers ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+.regular-customers li{
+    display: flex;
+    margin: 30px; 
+    
+    
+}
+
+.customers-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;  
+    fill: #AFB1B8;
+    cursor: pointer;
+    
+}
+.customers-border:hover{
+    fill: var(--icon-color);
+    border-color: var(--icon-color);
+}
+
+
+
+
+
+
 /* PORTFOLIO BUTTONS */
 .all-btn button{
     width: 64px;
@@ -414,43 +462,6 @@ ul{
 }
 
 
-.regular-customers{
-    width: 1200px;
-    margin: auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.regular-customers ul{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-
-}
-.regular-customers li{
-    display: flex;
-    margin: 30px; 
-    
-    
-}
-.regular-customers li svg:hover{
-    fill: var(--icon-color);
-}
-.regular-customers li svg{
-    margin-left: 30px;
-    margin-top: 10px;
-    cursor: pointer;
-    fill: #AFB1B8;
-}
-.customers-border{
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;  
-}
-.customers-border:hover{
-    border-color: var(--icon-color);
-}
 
 
 
