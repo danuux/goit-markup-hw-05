@@ -19,7 +19,7 @@
     <div class="nav-container">
         <nav class="main-navigation">
         <ul>
-            <li><a href="index.html" class="current">Studio</a></li>
+            <li><a href="index.html" class="current-page">Studio</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="#">Contacts</a></li>
         </ul>
@@ -51,7 +51,7 @@
                 <h1>EFFECTIVE SOLUTIONS FOR <br>
                     YOUR BUSINESS</h1>
                     <div class="btn-horizontal">
-                        <button type="button">Request our service</button>
+                        <button type="button" data-modal-open>Request our service</button>
                     </div>
                 
             </div>
@@ -223,7 +223,7 @@
             <ul>
                 <li>
                     <div class="customers-border">
-                    <svg height="60px" width="106px">
+                    <svg height="60px" width="106px" class="icon">
                     <use href="./images/icons.svg#icon-iconcustomer"></use>
                 </svg>
                     </div>
@@ -231,7 +231,7 @@
 
                 <li>
                     <div class="customers-border">
-                    <svg height="60px" width="106px">
+                    <svg height="60px" width="106px" class="icon">
                     <use href="./images/icons.svg#icon-icon2customer"></use>
                 </svg>
                     </div>
@@ -239,14 +239,14 @@
 
                 <li>
                     <div class="customers-border">
-                    <svg height="60px" width="106px">
+                    <svg height="60px" width="106px" class="icon"> 
                     <use href="./images/icons.svg#icon-icon3customer"></use>
                 </svg></div>
                 </li>
 
                 <li>
                     <div class="customers-border">
-                    <svg height="60px" width="106px">
+                    <svg height="60px" width="106px" class="icon">
                     <use href="./images/icons.svg#icon-icon4customer"></use>
                 </svg>
                     </div>
@@ -254,7 +254,7 @@
                 
                 <li>
                     <div class="customers-border">
-                    <svg height="60px" width="106px">
+                    <svg height="60px" width="106px" class="icon">
                     <use href="./images/icons.svg#icon-icon5customer"></use>
                 </svg>
                     </div>
@@ -262,7 +262,7 @@
 
                 <li>
                     <div class="customers-border">
-                    <svg height="60px" width="106px">
+                    <svg height="60px" width="106px" class="icon">
                     <use href="./images/icons.svg#icon-icon6customer"></use>
                 </svg>
                     </div>
@@ -316,9 +316,17 @@
                 
         </div>
         </div>
-
-
     </footer>
-    
+
+    <!-- Request our service Modal -->
+        <div class="modal is-hidden" data-modal>
+            <div class="modal-content">
+                <button class="close-btn" data-modal-close>&times;</button>
+            </div>
+
+
+        </div>
+
+        <script src="js/modal.js"></script>
 </body>
 </html>
